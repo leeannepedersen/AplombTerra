@@ -1,0 +1,72 @@
+@font-face
+{
+font-family: TrajanRegular;
+src: url(font/TrajanPro-Regular.otf);
+}
+body
+{
+background-color:#F0EEEC;
+color:#54301A;
+}
+div.container
+{
+width:100%;
+margin:0px;
+border:1px solid gray;
+line-height:150%;
+}
+div.header,div.footer
+{
+padding:0.5em;
+color:white;
+background-color:#54301A;
+clear:left;
+}
+h1.header
+{
+padding:0;
+margin:0;
+}
+div.left
+{
+float:left;
+width:283px;
+margin:0;
+padding:1em;
+}
+.name 
+{
+margin-bottom:-5px;
+font-weight:bold;
+}
+.small
+{
+font-size:11px;
+line-height:70%;
+}
+.smallmorebmargin
+{
+font-size:11px;
+line-height:70%;
+margin-bottom:20px;
+}
+a.email:link {color:#54301A;text-decoration:none;}
+a.email:hover {text-decoration:underline;}
+div.text
+{
+margin-left:3px;
+font-family:Arial,Helvetica,sans-serif;
+text-align:center;
+padding:1.5em;
+}
+div.content
+{
+margin-left:315px;
+border-left:1px solid gray;
+padding:1em;
+font-family:Arial,Helvetica,sans-serif;
+}
+div.content p.titles
+{
+font-weight:bold;
+}
